@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 300px;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 100px;
+    color: aliceblue;
+   background-color: rgb(116, 75, 117);
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.container {
+    max-width: 800px;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  img {
+    border-radius: 1rem; 
+    border: 3px solid #ff00d4;
+    filter: grayscale();
+  }
+  
+  .with-object-fit {
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 500px; 
+    height: 200px; }
+
+#introduce {
+  background-color: #ff00d4;
+  color: white;
+  text-align:center
+}
+
+#introduce > h1 {
+  font-family:"Shrikhand", serif;
+  font-size: 25px;
+}
+
+h2 {
+  font-family:"Shrikhand", serif;
+  font-size: 23px;
+  text-decoration: underline;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0%;
+  margin: ;
+}
+
+.education > ul {
+  color:#ffffff;
+  font-family: "verdana";
+  font-size: 14px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+
+.bullet1 {
+  color: rgb(174, 255, 167);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.bullet2 {
+  color: rgb(167, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.bullet3 {
+  color: rgb(255, 246, 167);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+.bullet4 {
+  color: rgb(255, 188, 167);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
